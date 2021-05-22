@@ -1,0 +1,101 @@
+.container{
+    text-align: center;
+    margin-top:20px;
+}
+/* h1{
+    color: #00f;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+} */
+input{
+    font-size: 25px;
+    border: 1px solid rgb(216, 209, 209);
+    height: 80px;
+    background:rgb(216, 209, 209);
+    text-align: right;
+
+}
+table{
+    margin: auto;
+}
+button{
+    width: 70px;
+    height: 40px;
+    background: rgb(216, 209, 209);
+    font-size: 25px;
+    color: #000;
+    border: 1px solid rgb(216, 209, 209);
+    margin-top: 10px;
+}
+.calculator{
+    background:rgb(216, 209, 209);
+    height: 535px;
+    display: inline-block;
+    border: 3px solid rgb(216, 209, 209);
+}
+#prcntbtn{
+    background: rgb(33, 121, 118);
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+#plusbtn{
+    background: rgb(214, 83, 7);
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+#multybtn{
+    background: rgb(2, 167, 65);
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+#minusbtn{
+    background: rgb(187, 49, 61);
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+#devidebtn{
+    background: rgb(77, 77, 21);
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+#equalbtn{
+    background:rgb(94, 51, 94);
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+#backspace{
+   background: rgb(197, 182, 182);
+   border-radius: 250px;
+   width: 50px;
+   height: 50px;
+}
+#Cbtn{
+    background: rgb(197, 182, 182);
+   border-radius: 250px;
+   width: 50px;
+   height: 50px;
+}
+#CEbtn{
+    background: rgb(204, 191, 191);
+   border-radius: 250px;
+   width: 50px;
+   height: 50px;
+}
+#Exitbtn{
+    background: rgb(221, 8, 8);
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+.item:hover{
+    background: #0f0;
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}

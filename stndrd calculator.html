@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Calculator</title>
+    <link rel="stylesheet" href="stndrd_Calc.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading">Calculator</h1>
+        <div class="calculator">
+            <input type="text" name="screen" id="screen">
+            <table>
+                <tr>
+                    <td><button id="backspace">del</button></td>
+                    <td><button id="Cbtn">C</button></td>
+                    <td><button id="CEbtn">CE</button></td>
+                    <td><button id="Exitbtn" onclick="reload()">Ext</button></td>
+                </tr>
+                <tr>
+                    <td><button>sin</button></td>
+                    <td><button>cos</button></td>
+                    <td><button onclick="toRadians()">tan</button></td>
+                    <td><button id="prcntbtn">%</button></td>
+                </tr>
+                <tr>
+                    <td><button>^2</button></td>
+                    <td><button>rt</button></td>
+                    <td><button>log</button></td>
+                    <td><button id="plusbtn">+</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button id="multybtn">x</button></td>
+
+
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button id="minusbtn">-</button></td>
+
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button id="devidebtn">/</button></td>
+
+                </tr>
+                <tr>
+                    <td><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>,</button></td>
+                    <td><button id="equalbtn">=</button></td>
+
+                </tr>
+            </table>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="stndrd_Calc.js"></script>
+
+</html>
